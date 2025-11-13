@@ -40,7 +40,7 @@ function App() {
         {/* Contact Section */}
         <Contact />
       </main>
-
+ 
       {/* Footer */}
       <footer className="border-t border-border/50 py-8">
         <div className="container-custom">
