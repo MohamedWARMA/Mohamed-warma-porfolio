@@ -1,21 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Building, Calendar, MapPin, ExternalLink } from 'lucide-react'
+import { Building, Calendar, MapPin } from 'lucide-react'
 import { useAppStore } from '../../../shared/store/app-store'
 
 interface ExperienceProps {
   className?: string
-}
-
-interface ExperienceItem {
-  company: string
-  position: string
-  period: string
-  location: string
-  type: 'current' | 'past'
-  description: string
-  achievements: string[]
-  technologies?: string[]
 }
 
 export const Experience: React.FC<ExperienceProps> = ({ className = '' }) => {

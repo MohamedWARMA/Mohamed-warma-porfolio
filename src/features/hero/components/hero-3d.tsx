@@ -95,6 +95,7 @@ const ParticleSystem: React.FC = () => {
     <points ref={particlesRef}>
       <bufferGeometry>
         <bufferAttribute
+          args={[new Float32Array(particleCount * 3), 3]}
           attach="attributes-position"
           count={particleCount}
           array={positions}

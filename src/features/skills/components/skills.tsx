@@ -7,13 +7,6 @@ interface SkillsProps {
   className?: string
 }
 
-interface SkillCategory {
-  icon: React.ReactNode
-  title: string
-  skills: string[]
-  color: string
-}
-
 export const Skills: React.FC<SkillsProps> = ({ className = '' }) => {
   const { language } = useAppStore()
 
