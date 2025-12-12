@@ -28,7 +28,7 @@ export const About: React.FC<AboutProps> = ({ className = '' }) => {
       personalInfo: {
         location: "Burkina Faso",
         age: "Born May 24, 2000",
-        languages: "French (Native), English (Fluent)",
+        languages: "French, English)",
         status: "Full-time Developer"
       },
       downloadCV: "Download CV",

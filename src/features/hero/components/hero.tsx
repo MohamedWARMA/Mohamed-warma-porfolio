@@ -177,7 +177,7 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
               className="flex justify-center lg:justify-start space-x-4"
             >
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/MohamedWARMA"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -187,7 +187,7 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
               </a>
               
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/mohamed-warma"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
